@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+div{
+    font-size: 25px;
+}
+.main{
+     background-color: cornflowerblue;
+}
+a { 
+    color: white; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */ 
+    } 
+    a:visited { 
+    color: white; /* Цвет посещённой ссылки */ 
+    } 
+    a:hover { 
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */ 
+    text-decoration: underline; /* Добавляем подчеркивание */ 
+    }
+h1{
+    color:beige;
+}
+p{
+    color: lightskyblue;
+}
+.rt{
+    margin-top: 150px;
+}
+body form div label{
+    color: white;
+}
+h2{
+    color: white;
+}
+.kio{
+    background-color: black;
+}
+.rot{
+   
+    color: white;
+}

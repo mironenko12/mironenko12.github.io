@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script>
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js',{scope: '/'});
+
+
+    }
+
+
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <h1>ГЛАВНАЯ</h1>
+    <div>
+   <table width='100%' class="rt">
+    <tr>
+        <td><img src="png/MacBook-Lid.webp" width="400" height="350"/></td> 
+        <td><img src="png/14.jpg" width="400" height="350"/></td> 
+        <td><img src="png/15.jpg" width="400" height="350"/></td>
+        <td><img src="png/16.avif" width="400" height="350"/></td>
+    </tr>
+    <tr>
+        <td align='center'>  <a href="2.html">Ноутбуки </a></td>
+       
+        <td align='center'><a href="2.html">Телефоны</a></td>
+       
+        <td align='center'><a href="4.html">Телевизоры</a></td>
+        
+        <td align='center'><a href="5.html">Аксессуары</a></td>
+    </tr>
+   </table>
+    </div>
+    <h2>Регистрация</h2>
+    <form name="signum" action="#" mathod="post">
+        <table class="kio">
+            <tr>
+            <td>
+     <div>
+        <input type="text" name="username" placeholder="Введите логин"/>
+     </div>
+            </td>
+            <td>
+     <div>
+        <input type="email" name="email" placeholder="Введите почту"/>
+     </div>
+            </td>
+            <td>
+     <div>
+        <input type="password" name="password" placeholder="Введите пароль"/>
+     </div>
+            </td>
+            <td>
+     <input type="submit" name="submit" value="Зарегестрироваться"/>
+       </td></tr>
+       <tr>
+       <td>
+     <div>
+  
+        <textarea placeholder="Напишите отзыв"></textarea>
+     </div></td>
+     <td>
+     <div>
+        <input type="submit" name="submit" value="Отправить"/>
+     </div>
+    </td>
+</tr>
+    </table>
+    </form>
+</body>
+</html> 
